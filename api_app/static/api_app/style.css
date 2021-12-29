@@ -1,0 +1,80 @@
+*{
+    margin:none;
+    padding:none;
+}
+/* the header section  */
+header {
+    position: sticky;
+    top:0;
+    left:0;
+    right:0;
+    margin:none;
+}
+header nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+    background-color: chocolate;
+}
+
+header nav ul{
+    list-style: none;
+}
+header nav ul>li a{
+    color:white;
+    text-decoration: none;
+}
+
+header nav img{
+    width:60px;
+    height:40px;
+    border-radius: 10px;
+    background-color:white;
+}
+
+/* body items */
+.body-items{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#horizontal{
+    background-color: rgb(151, 193, 228);
+    width:20%;
+    height:5px;
+    border:none;
+    margin-top:-21px;
+}
+
+.body-items{
+    display:flex;
+    flex-flow: column wrap;
+    align-content:center;
+    margin:auto;
+}
+.description{
+    display: flex;
+    flex-flow:column wrap;
+    padding:5px;
+    margin:auto;
+}
+.description h3{
+    align-self:center;
+    margin:auto;
+    margin-bottom:-21px;
+}
+
+.description .guide{
+    line-height:30px;
+}
+
+.description .api_doc .endpoints li a{
+    color:rgb(151, 193, 228);
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 300;
+}
