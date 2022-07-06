@@ -1,4 +1,3 @@
-from collections import namedtuple
 from rest_framework import serializers
 from .models import Driver, Customer
 
